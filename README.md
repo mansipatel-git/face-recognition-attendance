@@ -154,3 +154,138 @@ If a detected face does not match any registered student within the recognition 
               │
               ▼
          Attendance CSV
+```
+
+# ▶️ How to Run
+
+Follow the steps below to run the **Face Recognition Attendance System** on your local machine.
+
+---
+
+## 
+
+Open a terminal and run the python file:
+
+```bash
+python attendance.py
+
+```
+# 🚀 Future Development
+
+The current system provides a working foundation for automated attendance using Face Recognition. The following features can be added to make the system more scalable, secure, and suitable for real-world deployment.
+
+---
+
+## 📷 1. Real-Time Webcam Recognition
+
+Replace the current group-image approach with a live webcam.
+
+```text
+Webcam
+   ↓
+Live Face Detection
+   ↓
+Face Recognition
+   ↓
+Automatic Attendance
+
+```
+# 🛠️ Used Tools & Technologies
+
+## 🤖 AI / Machine Learning
+
+- **FaceNet** – Generates facial embeddings and performs face feature extraction.
+- **Keras-FaceNet** – Provides FaceNet integration for the Python application.
+
+---
+
+## 👁️ Computer Vision
+
+- **OpenCV** – Used for face detection, image processing, face cropping, resizing, and displaying recognition results.
+- **Haar Cascade Classifier** – Used for detecting faces in images.
+
+---
+
+## 🐍 Programming Language
+
+- **Python** – Main programming language used to develop the complete attendance system.
+
+---
+
+## 🔢 Data Processing
+
+- **NumPy** – Used for numerical operations, embedding processing, and Euclidean distance calculation.
+
+---
+
+## 📄 Data Storage
+
+- **CSV** – Used to store attendance records including:
+  - Date
+  - Time
+  - Roll Number
+  - Name
+  - Status
+  - Confidence
+  - Distance
+  - Recognition Method
+
+---
+
+## 💻 Development Tools
+
+- **Visual Studio Code** – Used for coding, debugging, and project development.
+- **Git** – Used for version control.
+- **GitHub** – Used for source-code hosting and project management.
+
+---
+
+## 📦 Python Libraries
+
+```text
+tensorflow
+keras-facenet
+opencv-python
+numpy
+```
+### Technology WorkFlow
+              Python
+                │
+                ▼
+             OpenCV
+                │
+                ▼
+        Face Detection
+                │
+                ▼
+            FaceNet
+                │
+                ▼
+       Face Embeddings
+                │
+                ▼
+             NumPy
+                │
+                ▼
+       Face Comparison
+                │
+                ▼
+      Attendance Processing
+                │
+                ▼
+               CSV
+                │
+                ▼
+             GitHub
+
+```
+```
+# 👩‍💻 About Me
+
+## Mansi Patel
+
+🎓 **Branch:** Computer Science Engineering (CSE)
+
+📧 **Email:** mansi.patel.23031@iitgoa.ac.in
+
+💻 **GitHub ID:** [mansipatel-git](https://github.com/mansipatel-git)
