@@ -39,17 +39,9 @@ The project demonstrates the practical application of **Artificial Intelligence,
 ---
 # 🎥 Demo
 
-## 1️⃣ Dataset Loading
 
-The system first loads the registered student images from the dataset and generates face embeddings using FaceNet.
 
-<p align="center">
-<img src="screenshots/dataset.png" width="900">
-</p>
-
----
-
-## 2️⃣ Face Recognition
+## 1 Face Recognition
 
 The system detects faces from the group image and compares them with the registered student faces.
 
@@ -59,7 +51,7 @@ The system detects faces from the group image and compares them with the registe
 
 ---
 
-## 3️⃣ Unknown Face Detection
+## 2 Unknown Face Detection
 
 If a detected face does not match any registered student within the recognition threshold, the system identifies the person as **Unknown**.
 
@@ -69,14 +61,8 @@ If a detected face does not match any registered student within the recognition 
 
 ---
 
-## 4️⃣ Attendance CSV
+## 4️ Attendance CSV
 
-After recognition, the system automatically generates and stores the attendance information in a CSV file.
-
-<p align="center">
-<img src="screenshots/attendance.png" width="900">
-</p>
-Example:
 
 ```text
 👥 Faces detected: 3
